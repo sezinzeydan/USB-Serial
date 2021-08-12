@@ -28,6 +28,8 @@ int main()
   
   printApps(apps,noOfLines);
   
+  free(apps);
+  
   return 0;
 }
 
